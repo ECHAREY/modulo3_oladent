@@ -1,0 +1,13 @@
+.App {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 24px;
+  background-color: #E5E7E9;
+}
+
+.App * {
+  justify-self: center;
+  background-color: #E5E7E9;
+
+}

@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 0 16px;
+}
+
+.container-image {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.container-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nombre {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.isbn {
+    font-weight: 500;
+    font-size: 14px;
+    color: gray;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 16px;
+    color: black;
+}
+
+.descuento {
+    background-color: green;
+}
+
+.normal {
+    background-color: beige;
+}
